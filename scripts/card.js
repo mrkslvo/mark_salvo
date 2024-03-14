@@ -8,19 +8,19 @@ const cards = (head1,images,para, btn) => {
                         <div class="box">
                             <img src="${images}" >
                             <p>${para}</p>
-                            <button>${btn}</button>
+                            <button id="btn2">${btn}</button>
                         </div>
 
                         <div class="box">
                             <img src="${images}" >
                             <p>${para}</p>
-                            <button>${btn}</button>
+                            <button id="btn3">${btn}</button>
                         </div>
 
                         <div class="box">
                             <img src="${images}" >
                             <p>${para}</p>
-                            <button>${btn}</button>
+                            <button id="btn4">${btn}</button>
                         </div>
 
                     </div>`

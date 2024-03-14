@@ -28,3 +28,20 @@ sectionOne.append(profile(header1, para1, button1))
 sectionOne.append(picture(img))
 
 sectionTwo.append(cards(header, cardss, para, btn))
+
+
+let btn1 = document.getElementById('btn').addEventListener('click', () => {
+    alert(`Arigato gosaimas`);
+})
+
+let btn2 = document.getElementById('btn2').addEventListener('click', () => {
+    alert(`Arigato gosaimas`);
+})
+
+let btn3 = document.getElementById('btn3').addEventListener('click', () => {
+    alert(`Arigato gosaimas`);
+})
+
+let btn4 = document.getElementById('btn4').addEventListener('click', () => {
+    alert(`Arigato gosaimas`);
+})

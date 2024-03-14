@@ -5,7 +5,7 @@ const profile = (head, para1, btn1) => {
     div.className = 'right'
     div.innerHTML = `<h1>${head}</h1>
                     <p>${para1}</p>
-                    <button>${btn1}</button>
+                    <button id="btn">${btn1}</button>
     `
 
     return div
