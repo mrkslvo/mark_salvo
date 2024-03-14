@@ -7,7 +7,7 @@ const obj1 = {
     header1 : "This is my profile",
     para1   : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis veniam excepturi ipsa. Quam placeat ab quisquam alias debitis veniam voluptates exercitationem minus porro recusandae ipsum quae architecto, consequuntur illum ratione!",
     button1 : "PROFILE",
-    img     : "images/prof.jpg"
+    img     : "images/profile-picture.jpeg"
 }
 
 const obj2 = {

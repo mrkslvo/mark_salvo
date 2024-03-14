@@ -17,7 +17,9 @@ body{
 img{
     width: 300px;
     height: 300px;
-    border-radius: 50%;
+    margin-right: 150px;
+    border-radius: 100px 80px 200px 90px;
+    border: 1px solid white;
 }
 
 .sectionOne{
@@ -25,7 +27,7 @@ img{
     height: 500px;
     display: flex;
     justify-content: space-between;
-    padding: 0 9rem 0 4rem;
+    padding: 0 4rem;
     align-items: center;
 }
 
@@ -33,10 +35,10 @@ img{
     width: 500px;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
     padding: 20px;
     justify-content: center;
     align-items: start;
+    gap: 2rem;
 }
 
 .right p {
@@ -89,6 +91,12 @@ img{
     padding: 20px;
     gap: 20px;
     border-radius: 10px;
+    background-color: rgb(22, 0, 22);
+}
+
+.cards h1{
+    letter-spacing: 10px;
+    font-size: 2.5rem;
 }
 
 .box img{
@@ -112,5 +120,5 @@ img{
 .box button:hover, .right button:hover{
     background-color: white;
     color: rgb(37,0,37);
-    transform: scale(1.05);
+    transform: scale(1.09);
 }
