@@ -46,7 +46,7 @@ img{
 }
 
 .right button{
-    background-color: transparent;
+    background-color: rgb(22, 0, 22);
     padding: 10px 15px;
     font-size: 1.2rem;
     font-weight: bold;
@@ -166,5 +166,4 @@ img{
     .cards h1{
         font-size: 1.3rem;
     }
-
 }
