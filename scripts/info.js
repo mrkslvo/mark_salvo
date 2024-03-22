@@ -5,7 +5,7 @@ const profile = (head, para1, btn1) => {
     div.className = 'right'
     div.innerHTML = `<h1>${head}</h1>
                     <p>${para1}</p>
-                    <button id="btn">${btn1}</button>
+                    <button id="btn"><a target="_blank" href="https://mrkslvo.github.io/Portfolio/">${btn1}</a></button>
     `
 
     return div

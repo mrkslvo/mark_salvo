@@ -5,14 +5,14 @@ import { profile } from "./info.js"
 
 const obj1 = {
     header1 : "This is my profile",
-    para1   : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis veniam excepturi ipsa. Quam placeat ab quisquam alias debitis veniam voluptates exercitationem minus porro recusandae ipsum quae architecto, consequuntur illum ratione!",
+    para1   : "My name is Mark and I am a highly motivated and passionate individual. I have a strong belief in the power of hard work and dedication, and I strive to use these qualities to achieve success in all aspects of my life.",
     button1 : "PROFILE",
-    img     : "images/profile-picture.jpeg"
+    img     : "images/im-removebg-preview.png"
 }
 
 const obj2 = {
     header : "PROJECT COMPLETED",
-    para    : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque perspiciatis ipsam vitae reiciendis? Sequi totam nesciunt, neque mollitia deleniti iusto.",
+    para    : "The Joker card is often depicted as a court jester, clown, or harlequin, representing chaos, unpredictability, wit, and intelligence.",
     btn     : "Click Me",
     cardss  : "images/card.jpg"
 }
@@ -30,9 +30,6 @@ sectionOne.append(picture(img))
 sectionTwo.append(cards(header, cardss, para, btn))
 
 
-let btn1 = document.getElementById('btn').addEventListener('click', () => {
-    alert(`Arigato gosaimas`);
-})
 
 let btn2 = document.getElementById('btn2').addEventListener('click', () => {
     alert(`Arigato gosaimas`);

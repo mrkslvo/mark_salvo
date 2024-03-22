@@ -3,7 +3,17 @@
     margin: 0;
     box-sizing: border-box;
     color: white;
+    text-decoration: none;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: rgb(243, 126, 243);
+    transition: all .5s;
+}
+
+a:hover{
+    color: rgb(37,0,37);
 }
 
 body{
@@ -16,10 +26,10 @@ body{
 
 img{
     width: 300px;
-    height: 300px;
+    height: 400px;
     margin-right: 150px;
-    border-radius: 100px 80px 200px 90px;
-    border: 1px solid white;
+    border-radius: 400px 220px 450px  150px;
+    border: 2px solid rgb(243, 126, 243);
 }
 
 .sectionOne{
@@ -27,7 +37,7 @@ img{
     height: 500px;
     display: flex;
     justify-content: space-between;
-    padding: 0 4rem;
+    padding: 0 6rem;
     align-items: center;
 }
 
@@ -40,21 +50,29 @@ img{
     align-items: start;
     gap: 2rem;
 }
-
+.right h1{
+    color: rgb(243, 126, 243);
+}
 .right p {
     line-height: 1.5;
 }
 
 .right button{
-    background-color: rgb(53, 0, 53);
-    padding: 10px 15px;
+    background-color: transparent;
+    padding: 4px 15px;
     font-size: 1.2rem;
     font-weight: bold;
     border-radius: 5px;
     display: flex;
     cursor: pointer;
     transition: all .5s;
-    border: 1px solid white;
+    border: 2px solid rgb(243, 126, 243);
+    color: rgb(243, 126, 243);
+}
+
+.sectionOne .right button:hover{
+    background-color: rgb(243, 126, 243);
+    color: rgb(37,0,37);
 }
 
 .sectionTwo{
@@ -83,7 +101,7 @@ img{
 }
 
 .box{
-    border: 1px solid white;
+    border: 2px solid rgb(243, 126, 243);
     display: flex;
     justify-content: start;
     align-items: start;
@@ -97,12 +115,14 @@ img{
 .cards h1{
     letter-spacing: 10px;
     font-size: 2.5rem;
+    color: rgb(243, 126, 243);
 }
 
 .box img{
     width: 100%;
     border-radius: 10px;
     height: 200px;
+    border: 2px solid rgb(243, 126, 243);
 }
 
 .box p{
@@ -110,21 +130,21 @@ img{
 }
 
 .box button{
-    color: white;
+    color: rgb(243, 126, 243);
     background-color: rgb(37,0,37);
-    border: 1px solid white;
+    border: 2px solid rgb(243, 126, 243);
     font-weight: bold;
     font-size: 1rem;
-    padding: 10px 15px;
+    padding: 4px 15px;
     border-radius: 5px;
     cursor: pointer;
     transition: all .5s;
 }
 
 .box button:hover, .right button:hover{
-    background-color: white;
+    background-color: rgb(243, 126, 243);
     color: rgb(37,0,37);
-    transform: scale(1.09);
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 1200px) {
@@ -141,7 +161,6 @@ img{
     
 
 }
-
 
 @media screen and (max-width:999px) {
     
