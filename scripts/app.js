@@ -6,7 +6,7 @@ import { profile } from "./info.js"
 const obj1 = {
     header1 : "This is my profile",
     para1   : "My name is Mark and I am a highly motivated and passionate individual. I have a strong belief in the power of hard work and dedication, and I strive to use these qualities to achieve success in all aspects of my life.",
-    button1 : "PROFILE",
+    button1 : "PORTFOLIO",
     img     : "images/im-removebg-preview.png"
 }
 const obj2 = {
